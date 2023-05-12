@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql
+    container_name: nest
+    volumes:
+      - /Users/igmrrf/nestjs-mysql:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: helloWorld
+      MYSQL_DATABASE: clothing_api_database
+    ports:
+      - '3306:3306'
+
+volumes:
+  nestjs-mysql-db:

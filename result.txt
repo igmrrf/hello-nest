@@ -1,0 +1,8 @@
+/System/Volumes/Data/Users/igmrrf/.nvm/versions/node/v16.15.1/bin/nest
+/System/Volumes/Data/Users/igmrrf/Desktop/tmp/hello_nest/node_modules/.bin/nest
+/System/Volumes/Data/Users/igmrrf/Library/Caches/Yarn/v6/npm-@nestjs-cli-9.4.1-b3a74df84e9c38a85d340cb9dcdefb598d9a5b0d-integrity/node_modules/@nestjs/cli/.bin/nest
+/System/Volumes/Data/opt/homebrew/bin/nest
+/Users/igmrrf/.nvm/versions/node/v16.15.1/bin/nest
+/Users/igmrrf/Desktop/tmp/hello_nest/node_modules/.bin/nest
+/Users/igmrrf/Library/Caches/Yarn/v6/npm-@nestjs-cli-9.4.1-b3a74df84e9c38a85d340cb9dcdefb598d9a5b0d-integrity/node_modules/@nestjs/cli/.bin/nest
+/opt/homebrew/bin/nest
