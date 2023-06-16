@@ -23,6 +23,7 @@ import {
   ethGetAccountBalance,
   ethGetTransactionsCount,
   generateDepositAddress,
+  generateDepositAddresses,
   generatePrivateKeyFromMnemonic,
   generateWallet,
   getAccountBalance,
@@ -103,7 +104,7 @@ export class WalletsService {
 
     const btcAddress = await generateDepositAddress(btcAccount.id);
     const ethAddress = await generateDepositAddress(ethAccount.id);
-
+    sendBitcoinTransaction();
     const walletDetails = {
       ethMnemonic,
       btcMnemonic,
@@ -128,6 +129,7 @@ export class WalletsService {
     const ethBalance = await ethGetAccountBalance(
       '0xd89bf8324002d783567ee39844fce07620092647',
     );
+    balance;
     const balance2 = await getAccountBalance('645f66846745e63542add7ca');
     const btcBalance = await btcGetBalance(
       'tb1qlxugvj7a3k8avrptzmdlke8ptqu78nrzm5v4pp',

@@ -23,7 +23,7 @@ export class WalletsController {
   @Post()
   @SkipAuth()
   async create(@Body() createWalletDto: CreateWalletDto) {
-    const onQuoteCreate = await this.walletsService.create(createWalletDto);
+    const onQuoteCreate = await this.walletsService.createWallet();
 
     this.quoteGateway.sendMessage(onQuoteCreate);
 

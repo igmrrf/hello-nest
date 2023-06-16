@@ -28,7 +28,7 @@ export class AuthController {
   @SkipAuth()
   @Post('otp')
   requestPhoneOTP(@Body() signInDto: Record<string, any>) {
-    this.logger.log({ signInDto });
+   
     return this.authService.requestOTP();
   }
 

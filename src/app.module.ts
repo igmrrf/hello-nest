@@ -16,7 +16,7 @@ import { SocketModule } from './socket/socket.module';
 import { StoryModule } from './story/story.module';
 import { UsersModule } from './users/users.module';
 import { WalletsModule } from './wallets/wallets.module';
-
+import { TookanModule } from './tookan/tookan.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -50,6 +50,7 @@ import { WalletsModule } from './wallets/wallets.module';
     WalletsModule,
     QuotesModule,
     SocketModule,
+    TookanModule,
   ],
   controllers: [AppController],
 
